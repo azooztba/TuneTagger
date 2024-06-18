@@ -112,7 +112,7 @@ async def process_directory(directory_path):
     await asyncio.gather(*tasks)
 
 async def main():
-    directory_path = 'baba music usb\منوعات\اغاني حماسية ' # Replace with your directory path
+    directory_path = '/path/' # Replace with your directory path
     await process_directory(directory_path)
 
 # Run the main function
